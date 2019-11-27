@@ -40,6 +40,26 @@
 *::after {
   box-sizing: border-box;
 }
+.corpo{
+  width: 960px;
+  margin: auto;
+}
+.conteudo{
+  display: table;
+  width: 960px;
+  margin: auto;
+}
+.imagem{
+  display: table-cell;
+  float: left;
+}
+.texto{
+  display: table-cell;
+  float: left;
+  width: 300; 
+  margin-top: -20px;
+  margin-left: 20px;
+}
 
 html {
   font-family: sans-serif;
